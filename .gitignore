@@ -1,2 +1,6 @@
 .DS_Store
 */__pychache__/
+tmp_*.txt
+*.log
+*.pyc
+out/*

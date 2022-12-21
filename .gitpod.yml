@@ -1,0 +1,13 @@
+tasks:
+  - name: pine requirements
+    init: |
+        pip install -r requirements.txt
+        sudo apt-get update
+        sudo apt-get install -y parallel
+  - name: solvers
+    init: |
+        sudo apt-get update
+        sudo apt-get install -y cvc4
+        sudo apt-get install -y z3
+
+
